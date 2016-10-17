@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import os, sys, argparse, base64
 
-parser = argparse.ArgumentParser(description='Stich together Emp*re stagers (python) to conditionally execute based on platform')
+parser = argparse.ArgumentParser(description='Stitch together Emp*re stagers (python) to conditionally execute based on platform')
 parser.add_argument('-w', '--windows', help='Path to Windows (Empire) stager')
 parser.add_argument('-n', '--nix', help='Path to *nix (EmPyre) stager')
 args = parser.parse_args()
